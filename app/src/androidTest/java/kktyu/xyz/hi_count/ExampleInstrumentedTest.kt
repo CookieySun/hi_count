@@ -1,4 +1,4 @@
-package kktyu.com.hi_count
+package kktyu.xyz.hi_count
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
-        assertEquals("kktyu.com.hi_count", appContext.packageName)
+        assertEquals("kktyu.xyz.hi_count", appContext.packageName)
     }
 }
