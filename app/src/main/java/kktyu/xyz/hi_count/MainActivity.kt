@@ -1,4 +1,4 @@
-package kktyu.com.hi_count
+package kktyu.xyz.hi_count
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle

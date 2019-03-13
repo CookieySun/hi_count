@@ -1,4 +1,4 @@
-package kktyu.com.hi_count
+package kktyu.xyz.hi_count
 
 import android.os.Bundle
 import android.support.v4.app.Fragment
