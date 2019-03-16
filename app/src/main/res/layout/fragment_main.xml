@@ -11,10 +11,10 @@
         android:layout_height="match_parent">
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/count_up"
             android:layout_width="200dp"
             android:layout_height="200dp"
-            android:background="@drawable/button_style"
+            android:background="@drawable/button_frame_white"
             android:text="@string/hi"
             android:textColor="#420000"
             android:textSize="100sp"
@@ -24,13 +24,12 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/count_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="10000"
             android:textColor="#777777"
             android:textSize="50sp"
-            app:layout_constraintBottom_toTopOf="@+id/button3"
+            app:layout_constraintBottom_toTopOf="@+id/count_up"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
