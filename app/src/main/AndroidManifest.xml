@@ -9,6 +9,7 @@
             android:roundIcon="@mipmap/hi_logo"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <meta-data android:name="firebase_analytics_collection_enabled" android:value="false" />
         <activity android:name="kktyu.xyz.hi_count.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
